@@ -1,75 +1,165 @@
+.fakeimg {
+      height: 200px;
+      background: #aaa;
+  }
+
+/* global styles */
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+
 body {
-	font-family: Courier New, Arial, sans-serif;
-	text-align: center;
-	color: #4D565B;
+    font-family: 'Roboto Mono', monospace;
 }
 
-.index_main {
-	margin: 70px auto 0 auto;
-	width: 500px;
+.btn {
+    border-radius: 0;
 }
 
-/* logo */
-.logo img {
-	width: 250px;
-	height: 250px;
+/* end global styles */
+
+
+/* header */
+.header {
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    color: #EEEEEE;
 }
 
-/*global rules */
-ul li {
-	list-style: none;
-	display: inline-block;
+.sociallinks a {
+    color: #EEEEEE;
+    border-bottom: 1px dotted;
+    margin-right: 10px;
 }
 
-a {
-	color: #000;
-	font-weight: 500;
+.sociallinks a:hover {
+    color: #EF5350;
+    text-decoration: none;
+    border-bottom: 1px solid;
+}
+/* end header */
+
+
+/* nav */
+nav ul li {
+    padding-right: 20px;
 }
 
-a:hover {
-	font-weight: 1000;
+.navbar-default .navbar-nav > .active{
+    color: #EF5350;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #EF5350;
 }
 
-.active {
-	font-weight: 1000;
-}
-/*end global rules */
-
-
-/* card */
-.card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    width: 40%;
-	background: #EBEDEF;
-	float: left;
-	margin: 5% 5%;
+nav ul li a:hover {
+    color: #EF5350 !important;
 }
 
-.card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+.dropdown {
+    border-radius: 0;
 }
 
-.card img {
-	width: 90%;
-	padding: 20px;
+.dropdown-menu {
+    border-radius: 0;
+    background-color: #212529;
+    color: rgba(255,255,255,.5);
 }
 
-.card_container {
-    padding: 0 16px 16px 16px;
+.dropdown-menu a {
+    color: rgba(255,255,255,.5);
 }
-/* end card */
+
+.dropdown-menu a:hover {
+    color: #E0E0E0;
+    background-color: #212529;
+}
+
+.dropdown-menu .active {
+    background-color: #212529;
+}
+/* end nav */
 
 
-/* Rules for smaller screens */
-@media only screen and (max-width: 600px) {
-    .index_main {
-        width: 100%;
-        margin: auto;
-	}
-	.card {
-		width: 100%;
-		float: center;
-		margin: 3% auto;
-	}
+/* main */
+.main {
+    padding: 20px 20px;
 }
+
+.main a {
+    color: #EF5350;
+    font-weight: 500;
+}
+
+.main a:hover {
+    color: #EF5350;
+}
+/* end main */
+
+
+/* main2 */
+.main2 {
+    padding: 40px 20px;
+    background-color: #F1F1F1;
+}
+
+.main2 p {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.main2 a {
+    color: #EF5350;
+    font-weight: 500;
+}
+
+.main2 a:hover {
+    color: #EF5350;
+}
+/* end main */
+
+
+
+/* footer */
+.footer {
+    background-color: #343A40;
+    color: #E9ECEF;
+    text-align: center;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.footer a {
+    color: #EEEEEE;
+    border-bottom: 1px dotted;
+    margin-right: 10px;
+}
+
+.footer a:hover {
+    text-decoration: none;
+    border-bottom: 1px solid;
+    color: #EF5350 !important;
+}
+/* end footer */
+
+
+/* --------------- page based css --------------- */
+
+/* home */
+.home-gallery {
+    text-align: center;
+}
+
+.home-gallery img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+/* end home */
+
+/* fashion */
+.fashion-gallery img {
+    width: 250px;
+}
+/* end fashion */
