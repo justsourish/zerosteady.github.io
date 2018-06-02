@@ -158,6 +158,18 @@ nav ul li a:hover {
 }
 /* end home */
 
+/* web-designs */
+.web-gallery {
+    text-align: center;
+}
+
+.web-gallery img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+/* end web-designs */
+
 /* fashion */
 .fashion-gallery img {
     width: 250px;
