@@ -175,3 +175,29 @@ nav ul li a:hover {
     width: 250px;
 }
 /* end fashion */
+
+/* hire */
+.hire-left {
+    background-image: url(../images/sourish.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+.hire-right {
+    padding: 20px;
+}
+
+.hire-right a:hover {
+    color: #EF5350;
+    font-weight: 500;
+}
+
+.hire-bottom-left {
+    padding: 20px;
+}
+
+.hire-bottom-right {
+    padding: 20px;
+}
+/* end hire */
