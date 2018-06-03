@@ -183,6 +183,15 @@ nav ul li a:hover {
 /* end fashion */
 
 /* hire */
+.hire-main {
+    padding: 0 20px 0 0;
+}
+
+.hire-main a {
+    color: #EF5350;
+    font-weight: 500;
+}
+
 .hire-left {
     background-image: url(../images/sourish.jpg);
     background-repeat: no-repeat;
