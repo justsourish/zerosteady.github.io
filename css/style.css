@@ -10,6 +10,12 @@ body {
     font-family: 'Roboto Mono', monospace;
 }
 
+a.disabled {
+    text-decoration: line-through;
+    /* And disable the pointer events */
+    pointer-events: none;
+}
+
 .btn {
     border-radius: 0;
 }
